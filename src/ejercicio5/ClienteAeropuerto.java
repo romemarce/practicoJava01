@@ -32,7 +32,7 @@ public class ClienteAeropuerto {
   }
 
   private static Vuelo[] partidas(Vuelo [] vuelosArray){
-    // que retorne todos los vuelos que salen del aeropuerto de Concordia
+    // Que retorne todos los vuelos que salen del aeropuerto de Concordia
     Ciudad concordia = new Ciudad("CON","Concordia");
 
     Vuelo[] listado = new Vuelo[0];
@@ -71,11 +71,11 @@ public class ClienteAeropuerto {
     imprimir(vuelos);
     System.out.println("=========");
 
-    System.out.println("Partidas: ");
+    System.out.println("Partidas desde Concordia: ");
     imprimir(partidas(vuelos));
     System.out.println("=========");
 
-    System.out.println("Arribos: ");
+    System.out.println("Arribos en Concordia: ");
     imprimir(arribos(vuelos));
     System.out.println("=========");
   }

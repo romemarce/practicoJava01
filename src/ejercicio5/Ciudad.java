@@ -44,7 +44,7 @@ public class Ciudad {
 
   @Override
   public String toString() {
-    return "Ciudad {" + "Cod. IATA: '" + codigoIata + ", nombre='" + nombre + '}';
+    return "Cod. IATA: "+codigoIata+" - "+nombre;
   }
 }
 

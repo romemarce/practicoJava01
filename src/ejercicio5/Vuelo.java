@@ -83,13 +83,7 @@ public class Vuelo {
 
   @Override
   public String toString() {
-    return "Vuelo{" +
-            "Num: " + numeroVuelo +
-            ", Linea Aerea=" + lineaAerea +
-            ", Origen: " + ciudadOrigen +
-            ", Destino: " + ciudaDestino +
-            ", Partida: " + fechaPartida +
-            ", Arribo: " + fechaArribo +
-            '}';
+    return "Vuelo: Num: "+numeroVuelo+", Linea Aerea: { "+lineaAerea+" }, Origen: { "+ciudadOrigen +" }, Destino: {"+ciudaDestino+"}, Partida: " + fechaPartida +
+            ", Arribo: " + fechaArribo +"} ";
   }
 }

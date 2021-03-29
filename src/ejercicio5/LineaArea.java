@@ -45,6 +45,6 @@ public class LineaArea {
 
   @Override
   public String toString() {
-    return "LineaArea{ " + numero + " - " + nombre + '}';
+    return  numero + " - " + nombre;
   }
 }
